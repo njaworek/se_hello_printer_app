@@ -4,8 +4,7 @@ from formater import SUPPORTED, PLAIN
 from flask import request
 
 moje_imie = "Nati"
-with open('test.txt', r) as msg:
-    print('xxx')
+msg = open('test.txt').read()
 
 
 @app.route('/')
