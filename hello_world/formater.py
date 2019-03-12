@@ -19,7 +19,7 @@ def get_formatted(msg, imie, format):
     elif format == JSON:
         result = format_to_json(msg, imie)
     elif format == XML:
-            result = format_to_xml(msg, imie)
+        result = format_to_xml(msg, imie)
     return result
 
 
