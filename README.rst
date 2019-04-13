@@ -109,3 +109,33 @@ Materiały
 
 - https://virtualenvwrapper.readthedocs.io/en/latest/
 test
+
+
+Aby w domu sobie to odpalić to:
+git clone path_to_repository:
+$ vim ~/.gitconfig
+
+$ git config --global user.name "USERNAME"
+$ git config --global user.email "USERNAME@users.noreply.github.com"
+
+# VIM
+$ sudo apt-get update
+$ sudo apt-get install vim
+
+#
+$ sudo pip install virtualenv
+$ sudo pip install virtualenvwrapper
+
+#
+$ cd he...
+$ source /usr/local/bin/virtualenvwrapper.sh
+$ mkvirtualenv wsb-simple-flask-app
+
+$ make deps
+$ make test
+$ make run
+
+
+# tak żeby zobaczyć w jakim
+# stanie zostawiliśmy nasz projekt
+$ make lint
