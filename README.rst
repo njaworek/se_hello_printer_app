@@ -139,3 +139,5 @@ $ make run
 # tak żeby zobaczyć w jakim
 # stanie zostawiliśmy nasz projekt
 $ make lint
+
+monitoring mozna zobaczyc na statuscake.com
