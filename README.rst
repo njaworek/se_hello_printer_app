@@ -148,3 +148,11 @@ Badge z travis CI
 
 .. |build passing| image:: https://travis-ci.org/njaworek/se_hello_printer_app.svg
    :target: https://travis-ci.org/njaworek/se_hello_printer_app
+
+Badge z statuscake
+
+
+|status cake|
+
+.. |status cake| image:: https://app.statuscake.com/button/index.php?Track=rHIYbOfvja&Days=1&Design=1
+   :target: https://app.statuscake.com/UptimeStatus.php?tid=3999776
