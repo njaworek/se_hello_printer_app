@@ -141,3 +141,10 @@ $ make run
 $ make lint
 
 monitoring mozna zobaczyc na statuscake.com
+
+Badge z travis CI
+
+|build passing|
+
+.. |build passing| image:: https://travis-ci.org/njaworek/se_hello_printer_app.svg
+   :target: https://travis-ci.org/njaworek/se_hello_printer_app
