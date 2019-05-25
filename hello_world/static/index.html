@@ -1,12 +1,30 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Witaj swiecie</title>
+<meta charset="utf-8">
+<title>Imiona</title>
+<script type="text/javascript"
+src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+</script>
 </head>
 <body>
 
-<h1>Witaj Swiecie</h1>
-<p>This is a paragraph.</p>
+
+<script type="text/javascript">
+  $(document).ready(function() {
+    console.log("ready!");
+
+    $.getJSON("/?output=json", function (data) {
+      console.log(data);
+      $('#imie').text(data['imie'])
+    })
+  });
+</script>
+
+<div>Cześć! <p id='imie'></p></div>
+
+<a href="https://google.com/search?q=imiona%20slawnych%20ludzi">
+    Znajdź imiona znanych ludzi</a>
 
 </body>
-</html> 
+</html>

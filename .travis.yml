@@ -11,6 +11,8 @@ script:
   - make docker_build
   - make docker_run
   - sleep 3; make test_api
+  - make test_ui
+  after_success:
   - make docker_push
   - make test_xunit
 deploy:
