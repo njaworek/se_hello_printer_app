@@ -1,5 +1,4 @@
-.PHONY : test
-.PHONY : test_api
+.PHONY : test test_api
 USERNAME=njaworek
 TAG=$(USERNAME)/hello-world-printer
 
@@ -43,4 +42,4 @@ test_xunit:
 	PYTHONPATH=. py.test --verbose -s --cov=. --cov-report xml --junit-xml=test_results.xml
 
 test_api:
-	PYTHONPATH=. py.test --verbose -s test_api/check_api.py
+	python test_api/check_api.py
