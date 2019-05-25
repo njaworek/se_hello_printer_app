@@ -16,9 +16,8 @@ script:
   - make docker_run
   - sleep 3; make test_api
   - make test_ui
-  after_success:
+after_success:
   - make docker_push
-  - make test_xunit
 deploy:
   provider: heroku
   app: sheltered-retreat-59171
